@@ -1,0 +1,48 @@
+# Greed
+A game where you try to get a high score by collect gems, while also avoiding being hit by rocks.
+
+## The Rules:
+You control at the bottom of the screen, you control a small robot with arms reaching up to catch gems, represented as: |v|
+
+Falling from above at various speeds, you must discern and catch or avoid the following objects:
+  + (Small gem, +1 point)
+  O (Falling rock, -1 point)
+  ['] (Big gem inside a geode, +2 points)
+  [,] (Falling boulder, -2 points)
+
+Be careful what you try to catch...
+
+
+## Getting Started
+---
+Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. You can install Raylib Python CFFI by opening a terminal and running the following command.
+```
+python3 -m pip install raylib
+```
+After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.```
+
+python3 rfk 
+```
+You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
+project folder. Select the main module inside the hunter folder and click the "run" icon.
+
+## Project Structure
+---
+The project files and folders are organized as follows:
+```
+root                    (project root folder)
++-- game data                 (source code for game)
+  +-- data              (data files for game)
+  +-- game              (specific game classes)
+  +-- __main__.py       (entry point for program)
++-- README.md           (general info)
+```
+
+## Required Technologies
+---
+* Python 3.8.0
+* Raylib Python CFFI 3.7
+
+## Authors
+---
+Andrew Nash atn22@byui.edu
